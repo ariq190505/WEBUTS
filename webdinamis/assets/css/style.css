@@ -1,0 +1,127 @@
+<style>
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: #212121;
+    }
+
+    .navbar-brand {
+        color: #90caf9;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+        color: #b0bec5;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #90caf9;
+    }
+
+    /* Main Section */
+    .main-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 2em;
+    }
+
+    /* Profile Card */
+    .profile-card {
+        background-color: #1c1c1c;
+        color: #b0bec5;
+        text-align: center;
+        padding: 2em;
+        border: 2px solid #1e88e5; /* Border color */
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        flex: 1;
+        margin-right: 2em; /* spacing between cards */
+    }
+
+    .profile-card img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 1em;
+        border: 3px solid #90caf9; /* Border color */
+    }
+
+    .social-icons a {
+        color: #90caf9;
+        margin: 0 8px;
+        font-size: 1.5em;
+        transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #1e88e5;
+    }
+
+    /* Welcome Message Section */
+    .welcome-message {
+        background-color: #1c1c1c;
+        padding: 2em;
+        border-radius: 10px;
+        border: 2px solid #1e88e5; /* Border color */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        color: #b0bec5;
+        flex: 2;
+    }
+
+    /* Feature Cards */
+    .feature-card {
+        background-color: #1c1c1c;
+        color: #b0bec5;
+        text-align: center;
+        border: 2px solid #1e88e5; /* Border color */
+        padding: 1.5em;
+        border-radius: 10px;
+        transition: transform 0.3s;
+        margin-bottom: 1em; /* spacing between cards */
+    }
+
+    .feature-card i {
+        font-size: 2em;
+        color: #90caf9;
+        margin-bottom: 1em;
+    }
+
+    .feature-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(144, 202, 249, 0.4);
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1c1c1c;
+        padding: 2em;
+        color: #b0bec5;
+        text-align: center;
+    }
+
+    /* About Section */
+    #about {
+        padding: 4em 0;
+        background-color: #1c1c1c;
+        border-radius: 10px;
+        margin-top: 2em;
+        border: 2px solid #1e88e5; /* Border color */
+    }
+
+    .about-title {
+        text-align: center;
+        margin-bottom: 2em;
+        color: #90caf9;
+    }
+
+    .about-text {
+        text-align: center;
+        color: #b0bec5;
+    }
+</style>
